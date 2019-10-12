@@ -97,6 +97,13 @@ p {
     text-align: left;
 }
 
+.top-content-about {
+    margin-bottom: 20px;
+    padding:20px;
+    border-bottom: 1px dashed black;
+    text-align: left;    
+}
+
 .top-content .banner {
     margin-bottom:20px;
 }
