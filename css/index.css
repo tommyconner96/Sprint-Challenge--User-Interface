@@ -73,6 +73,7 @@ p {
 
 }
 
+
 .top-nav {
     padding-bottom: 40px;
 }
@@ -91,17 +92,24 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding:20px;
     border-bottom: 1px dashed black;
+    text-align: left;
 }
 
 .top-content .banner {
     margin-bottom:20px;
 }
 
+.top-content h2 {
+    text-align: left;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    text-align: left; 
 }
 
 .middle-content {
@@ -246,6 +254,29 @@ p {
     padding-right: 0;
 }
 
+.main-about {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-left:10px;
+    margin-right:10px;
+    padding:15px;
+}
+
+.about-button {
+    background-color:white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 125px;
+    font-size:16px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -263,4 +294,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.pre-footer {
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-align: left;
 }
