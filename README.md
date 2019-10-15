@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html is a way to give html elements meaning. semantic html elements define and organize the content on a page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block shows the element in its own block, with space around it. Block elements also can have a width and height set. Display:inline puts the content right on the same line. Inline cannot have width and height set and they have to appear on the same line so they dont awork with top and bottom margins.
 
 3. What are the 4 areas of the box model?
 
+-margin
+-boarder
+-padding
+-content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-5. Explain why git is valuable to a team of developers.
+cross axis
+
+5. Explain why git is valuable to a team of developers. 
+
+Git is valuable for a team of developers for a number of reasons.  It is a quick way to share updates and changes, as well as logging versions so that if something breaks you can go back and fix it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -69,8 +82,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* Build the HTML and CSS to create the missing navigation and header.
+* Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
